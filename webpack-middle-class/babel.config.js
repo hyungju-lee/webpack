@@ -9,7 +9,7 @@ module.exports = {
                 },
                 useBuiltIns: 'usage', // entry, false
                 corejs: {
-                    version: 3 // 최신버전 3
+                    version: 2 // 최신버전 3
                 }
             }
         ]
