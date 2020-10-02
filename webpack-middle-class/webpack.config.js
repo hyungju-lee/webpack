@@ -8,11 +8,15 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
     mode: "development",
     entry: {
-        main: "./app.js"
+        main: "./src/app.js"
     },
     output: {
         path: path.resolve('./dist'),
         filename: "[name].js" // name - 위에 main 키네임을 가져온다.
+    },
+    devServer: {
+        overlay: true,
+        stats: "errors-only",
     },
     module: {
         rules: [
