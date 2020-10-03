@@ -1,3 +1,3 @@
-var foo = '';
+// var foo = "";
 
-console.log();;;;;;;;;
+console.log();
